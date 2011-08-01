@@ -1,0 +1,21 @@
+{
+  // These are CommonJS modules
+  "dependencies": {
+    "ios-alert": "0.0.2"
+    "jquery": "0.0.2",
+    "jquery.tmpl": "0.0.2",
+    "spine": "0.0.2"
+    // "phonegap": "0.0.2"
+  },
+  
+  // We want these to load before (not CommonJS)
+  "libraries": [
+    "lib/other.js"
+  ],
+  
+  // Files/folders to be ignored
+  "ignore": [
+    "lib/ignore.js"
+  ]
+}
+
